@@ -32,7 +32,7 @@ app.get('/profile', (req, res) => {
 });
 
 app.use('/account', accountRoutes);
-app.use('services', servicesRoutes);
+app.use('/services', servicesRoutes);
 
 app.listen(3000, () => {
   console.log('Listen');
